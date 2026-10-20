@@ -1,0 +1,30 @@
+{
+ "PHerc0826_8136:Astar": {
+  "median": 7.05,
+  "within4": 0.19
+ },
+ "PHerc0826_8136:B": {
+  "median": 8.68,
+  "within4": 0.119
+ },
+ "PHerc0826_8136:C": {
+  "median": 7.5,
+  "within4": 0.173
+ },
+ "PHerc0826_8136:A_seed2": {
+  "median": 6.9,
+  "within4": 0.208
+ },
+ "PHerc0211_8328:Astar": {
+  "median": 6.28,
+  "within4": 0.252
+ },
+ "PHerc0211_8328:B": {
+  "median": 7.73,
+  "within4": 0.145
+ },
+ "PHerc0211_8328:C": {
+  "median": 7.14,
+  "within4": 0.168
+ }
+}

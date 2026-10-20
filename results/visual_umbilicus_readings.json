@@ -1,0 +1,9 @@
+{
+ "_note": "Claude's visual core markings (centre of the innermost winding loop on labelled grid renders, scripts/render_slice.py), recorded in 04_Work_Log.md before any comparison. (z, x, y) in full-resolution voxels of the named volume.",
+ "PHerc0332_20251211183505": {"voxel_um": 2.399, "points": [[15300, 8110, 8650], [15730, 8060, 8510], [16160, 8180, 8580], [16590, 8080, 8430], [16800, 8080, 8330], [17450, 7630, 8120], [17880, 7520, 8150], [18310, 7440, 8130]]},
+ "PHerc0139_20260102150214": {"voxel_um": 2.399, "points": [[36500, 12040, 13260], [36930, 11840, 13460], [37360, 11560, 13460], [37790, 11560, 13500], [38220, 11080, 13780], [38650, 10720, 14220], [39080, 10240, 14500], [39510, 10000, 14660]]},
+ "PHercParis4_20260411134726": {"voxel_um": 2.399, "points": [[36500, 19040, 13440], [37360, 19360, 13440], [38220, 18800, 12720]], "skipped": "z 39080 (core not visible)"},
+ "PHerc0139_20250728140407": {"voxel_um": 9.362, "points": [[14000, 3900, 3290], [14430, 3720, 3310], [14860, 3700, 3310], [15290, 3690, 3260], [15720, 3620, 3350], [16580, 3310, 3520], [17000, 3300, 3560]],
+   "truth": "published 2.4 um umbilicus mapped into this frame by an affine fitted to 48k same-index vertex pairs of 3 segments present in both frames (residual median 4.1 vx); that mapping script was not kept, so this comparison is NOT recomputed by umb_error.py. Logged result: median 2.34 mm (per point 1.6-3.6 mm)."},
+ "PHerc0125_20250821151825": {"voxel_um": 9.362, "points": [], "skipped": "all 8 slices z 9000-12000: fully flattened, no visible core"}
+}

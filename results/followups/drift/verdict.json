@@ -1,0 +1,577 @@
+{
+ "prereg": "prereg/2026-10-07_seb_drifttol.md",
+ "verdict": "NOT-TOLERATED",
+ "sentence": "the tolerance holds point by point, not only on the band mean: a zero-mean linear tilt as large as a real tool's drift (villa's vc_gen_umbilicus on PHerc0211, 0.44 mm RMS as the fitter centres it) also renumbers the outer turns (one band, PHerc0826 [8136, 9136), 3 seeds; the 12 cross pairs are 4 baselines x 3 fits, correlated).",
+ "floor": 0.538,
+ "limit": 1,
+ "tilt": {
+  "formula": "dy(z) = +82 * (z - 8636) / 500 vx on y, floats, every control point, x unchanged",
+  "writer": {
+   "n_points": [
+    49,
+    49
+   ],
+   "x_z_unchanged": true,
+   "max_err_y_vx": 0.0002,
+   "max_err_x_vx": 0.0,
+   "raw_rms_vx": 47.34,
+   "raw_mean_vx": -0.082,
+   "filt_rms_vx": 46.61,
+   "filt_mean_vx": -0.082,
+   "filt_ends_vx": [
+    -77.1,
+    76.9
+   ],
+   "share_abs_gt25": 0.695,
+   "share_abs_gt50": 0.391,
+   "dy_at_extreme_control_points_vx": [
+    -1098.0,
+    1250.7
+   ]
+  }
+ },
+ "bars": {
+  "tolerated": "cross not tolerated <= 6/12 or median cross >= median within (checked first)",
+  "not_tolerated": "cross not tolerated >= 10/12 AND within not tolerated <= 1/3 AND median cross < min within",
+  "suggestive": "anything else (7-9/12)",
+  "inconclusive": "< 3 usable tilt fits"
+ },
+ "seed_pairs": {
+  "seed1|seed2": {
+   "share": 0.672,
+   "range": 0
+  },
+  "seed1|seed3": {
+   "share": 0.672,
+   "range": 0
+  },
+  "seed1|seed4": {
+   "share": 0.642,
+   "range": 1
+  },
+  "seed2|seed3": {
+   "share": 0.694,
+   "range": 0
+  },
+  "seed2|seed4": {
+   "share": 0.638,
+   "range": 1
+  },
+  "seed3|seed4": {
+   "share": 0.684,
+   "range": 0
+  }
+ },
+ "tilt82": {
+  "fits": [
+   "tilt82_s1",
+   "tilt82_s2",
+   "tilt82_s3"
+  ],
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "n_cross": 12,
+  "n_within": 3,
+  "cross_not_tolerated": 12,
+  "within_not_tolerated": 0,
+  "median_cross_share": 0.4435,
+  "min_within_share": 0.59,
+  "median_within_share": 0.657,
+  "state": "NOT-TOLERATED",
+  "columns": {
+   "seed1": {
+    "median_share": 0.466,
+    "shares": [
+     0.442,
+     0.508,
+     0.466
+    ],
+    "ranges": [
+     1,
+     1,
+     1
+    ],
+    "not_tolerated": 3
+   },
+   "seed2": {
+    "median_share": 0.445,
+    "shares": [
+     0.43,
+     0.494,
+     0.445
+    ],
+    "ranges": [
+     1,
+     0,
+     0
+    ],
+    "not_tolerated": 3
+   },
+   "seed3": {
+    "median_share": 0.455,
+    "shares": [
+     0.392,
+     0.484,
+     0.455
+    ],
+    "ranges": [
+     2,
+     0,
+     0
+    ],
+    "not_tolerated": 3
+   },
+   "seed4": {
+    "median_share": 0.407,
+    "shares": [
+     0.384,
+     0.44,
+     0.407
+    ],
+    "ranges": [
+     2,
+     1,
+     1
+    ],
+    "not_tolerated": 3
+   }
+  },
+  "cross": {
+   "seed1|tilt82_s1": {
+    "share": 0.442,
+    "range": 1,
+    "p2s": 1.85,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 1,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed2|tilt82_s1": {
+    "share": 0.43,
+    "range": 1,
+    "p2s": 1.81,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 1,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed3|tilt82_s1": {
+    "share": 0.392,
+    "range": 2,
+    "p2s": 1.86,
+    "outer": {
+     "000": -1,
+     "045": 0,
+     "090": 1,
+     "135": 1,
+     "180": 1,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed4|tilt82_s1": {
+    "share": 0.384,
+    "range": 2,
+    "p2s": 1.78,
+    "outer": {
+     "000": -1,
+     "045": 0,
+     "090": 1,
+     "135": 1,
+     "180": 1,
+     "225": 1,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed1|tilt82_s2": {
+    "share": 0.508,
+    "range": 1,
+    "p2s": 1.75,
+    "outer": {
+     "000": 0,
+     "045": -1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed2|tilt82_s2": {
+    "share": 0.494,
+    "range": 0,
+    "p2s": 1.77,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed3|tilt82_s2": {
+    "share": 0.484,
+    "range": 0,
+    "p2s": 1.82,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed4|tilt82_s2": {
+    "share": 0.44,
+    "range": 1,
+    "p2s": 1.82,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 1,
+     "135": 1,
+     "180": 1,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed1|tilt82_s3": {
+    "share": 0.466,
+    "range": 1,
+    "p2s": 1.77,
+    "outer": {
+     "000": -1,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed2|tilt82_s3": {
+    "share": 0.445,
+    "range": 0,
+    "p2s": 1.79,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed3|tilt82_s3": {
+    "share": 0.455,
+    "range": 0,
+    "p2s": 1.82,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed4|tilt82_s3": {
+    "share": 0.407,
+    "range": 1,
+    "p2s": 1.86,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 1,
+     "180": 1,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   }
+  },
+  "within": {
+   "tilt82_s1|tilt82_s2": {
+    "share": 0.657,
+    "range": 0,
+    "p2s": 1.57,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": true
+   },
+   "tilt82_s1|tilt82_s3": {
+    "share": 0.59,
+    "range": 1,
+    "p2s": 1.61,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": -1,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": true
+   },
+   "tilt82_s2|tilt82_s3": {
+    "share": 0.674,
+    "range": 0,
+    "p2s": 1.4,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": true
+   }
+  },
+  "fit_status": {
+   "tilt82_s1": {
+    "n": 100,
+    "first": 10,
+    "last": 109,
+    "theta_axis": 1,
+    "ok": true
+   },
+   "tilt82_s2": {
+    "n": 100,
+    "first": 10,
+    "last": 109,
+    "theta_axis": 1,
+    "ok": true
+   },
+   "tilt82_s3": {
+    "n": 100,
+    "first": 10,
+    "last": 109,
+    "theta_axis": 1,
+    "ok": true
+   },
+   "tilt82_s4": null
+  },
+  "fallback_used": false,
+  "same_seed_cross": {
+   "seed1|tilt82_s1": {
+    "share": 0.442,
+    "range": 1,
+    "p2s": 1.85,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 1,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed2|tilt82_s2": {
+    "share": 0.494,
+    "range": 0,
+    "p2s": 1.77,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   },
+   "seed3|tilt82_s3": {
+    "share": 0.455,
+    "range": 0,
+    "p2s": 1.82,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": false
+   }
+  },
+  "rigid_columns_median_share": {
+   "y25": {
+    "seed1": 0.478,
+    "seed2": 0.474,
+    "seed3": 0.462,
+    "seed4": 0.461
+   },
+   "y50": {
+    "seed1": 0.292,
+    "seed2": 0.302,
+    "seed3": 0.337,
+    "seed4": 0.373
+   }
+  },
+  "critic_forecast_cross_share": 0.419,
+  "z_description": {
+   "unshifted": {
+    "quartile_median_share": [
+     0.6735,
+     0.639,
+     0.6890000000000001,
+     0.688
+    ],
+    "neg_y_median_share": 0.655,
+    "pos_y_median_share": 0.689
+   },
+   "cross": {
+    "quartile_median_share": [
+     0.409,
+     0.4335,
+     0.4755,
+     0.4655
+    ],
+    "neg_y_median_share": 0.418,
+    "pos_y_median_share": 0.4675
+   },
+   "within": {
+    "quartile_median_share": [
+     0.656,
+     0.649,
+     0.672,
+     0.645
+    ],
+    "neg_y_median_share": 0.654,
+    "pos_y_median_share": 0.659
+   }
+  }
+ },
+ "stage0": {
+  "recipe_pass": true,
+  "launcher_copy": {
+   "n_tol": 16,
+   "n_tilt": 16,
+   "identical": true,
+   "diff": []
+  },
+  "spot": {
+   "seed1|seed2": {
+    "match": true,
+    "share": 0.672,
+    "range": 0,
+    "seed3_share": 0.672,
+    "seed3_range": 0
+   },
+   "seed1|seed3": {
+    "match": true,
+    "share": 0.672,
+    "range": 0,
+    "seed3_share": 0.672,
+    "seed3_range": 0
+   },
+   "seed1|seed4": {
+    "match": true,
+    "share": 0.642,
+    "range": 1,
+    "seed3_share": 0.642,
+    "seed3_range": 1
+   },
+   "seed2|seed3": {
+    "match": true,
+    "share": 0.694,
+    "range": 0,
+    "seed3_share": 0.694,
+    "seed3_range": 0
+   },
+   "seed2|seed4": {
+    "match": true,
+    "share": 0.638,
+    "range": 1,
+    "seed3_share": 0.638,
+    "seed3_range": 1
+   },
+   "seed3|seed4": {
+    "match": true,
+    "share": 0.684,
+    "range": 0,
+    "seed3_share": 0.684,
+    "seed3_range": 0
+   },
+   "seed1|y50_s3": {
+    "match": true,
+    "share": 0.291,
+    "range": 3,
+    "seed3_share": 0.291,
+    "seed3_range": 3
+   }
+  },
+  "floor": 0.538,
+  "limit": 1,
+  "zq_selfcheck": {
+   "zq_share": 0.672,
+   "compare_share": 0.672,
+   "ok": true
+  }
+ },
+ "note": "cross pairs = 3 tilt fits x 4 unshifted fits (4 baseline columns): correlated, not 12 independent tests; one band; a linear tilt, not the real (wiggly) drift; sector angles around the published umbilicus"
+}

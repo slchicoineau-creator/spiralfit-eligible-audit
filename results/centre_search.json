@@ -1,0 +1,215 @@
+{
+ "probes": {
+  "published_s1": {
+   "dx": 0,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.458,
+   "tracks": 0.1157
+  },
+  "published_s2": {
+   "dx": 0,
+   "dy": 0,
+   "seed": 2,
+   "points": 0.4562,
+   "tracks": 0.1142
+  },
+  "published_s3": {
+   "dx": 0,
+   "dy": 0,
+   "seed": 3,
+   "points": 0.4549,
+   "tracks": 0.1138
+  },
+  "published_s4": {
+   "dx": 0,
+   "dy": 0,
+   "seed": 4,
+   "points": 0.457,
+   "tracks": 0.115
+  },
+  "x50": {
+   "dx": 50,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.4505,
+   "tracks": 0.1127
+  },
+  "x100": {
+   "dx": 100,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.4444,
+   "tracks": 0.1114
+  },
+  "x250": {
+   "dx": 250,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.4407,
+   "tracks": 0.1103
+  },
+  "x500": {
+   "dx": 500,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.4108,
+   "tracks": 0.1042
+  },
+  "y50": {
+   "dx": 0,
+   "dy": 50,
+   "seed": 1,
+   "points": 0.457,
+   "tracks": 0.1147
+  },
+  "y100": {
+   "dx": 0,
+   "dy": 100,
+   "seed": 1,
+   "points": 0.443,
+   "tracks": 0.1124
+  },
+  "y250": {
+   "dx": 0,
+   "dy": 250,
+   "seed": 1,
+   "points": 0.4464,
+   "tracks": 0.116
+  },
+  "y500": {
+   "dx": 0,
+   "dy": 500,
+   "seed": 1,
+   "points": 0.4357,
+   "tracks": 0.1135
+  },
+  "xm250": {
+   "dx": -250,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.465,
+   "tracks": 0.1161
+  },
+  "cs_xm250_s2": {
+   "dx": -250,
+   "dy": 0,
+   "seed": 2,
+   "points": 0.465,
+   "tracks": 0.116
+  },
+  "cs_xm100": {
+   "dx": -100,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.4547,
+   "tracks": 0.1153
+  },
+  "cs_xm500": {
+   "dx": -500,
+   "dy": 0,
+   "seed": 1,
+   "points": 0.4651,
+   "tracks": 0.1179
+  },
+  "cs_ym100": {
+   "dx": 0,
+   "dy": -100,
+   "seed": 1,
+   "points": 0.4429,
+   "tracks": 0.113
+  },
+  "cs_ym250": {
+   "dx": 0,
+   "dy": -250,
+   "seed": 1,
+   "points": 0.3879,
+   "tracks": 0.0992
+  },
+  "cs_ym500": {
+   "dx": 0,
+   "dy": -500,
+   "seed": 1,
+   "points": 0.3416,
+   "tracks": 0.0896
+  },
+  "cs_xm250_ym250": {
+   "dx": -250,
+   "dy": -250,
+   "seed": 1,
+   "points": 0.3888,
+   "tracks": 0.1009
+  },
+  "cs_xm250_yp250": {
+   "dx": -250,
+   "dy": 250,
+   "seed": 1,
+   "points": 0.4578,
+   "tracks": 0.1171
+  }
+ },
+ "primary_points": {
+  "seed_band": [
+   0.4549,
+   0.458
+  ],
+  "bar": 0.4611,
+  "q1_value": 0.465,
+  "q1_replicates": true,
+  "quad_coef": [
+   0.449921599606303,
+   -0.004592390818500191,
+   0.01023997225433836,
+   -0.0006188973447657734,
+   -0.0031687630243383636,
+   -0.0019228659784526053
+  ],
+  "hessian_eigs": [
+   -0.006981283476947747,
+   -0.0005940372612605265
+  ],
+  "concave": true,
+  "peak_mm": [
+   -11.766,
+   5.186
+  ],
+  "peak_inside": false,
+  "peak_value": 0.5035,
+  "rms_residual": 0.0094,
+  "n_probes": 21,
+  "q2_clear_peak": false,
+  "verdict": "FAIL"
+ },
+ "secondary_tracks": {
+  "seed_band": [
+   0.1138,
+   0.1157
+  ],
+  "bar": 0.1176,
+  "q1_value": 0.116,
+  "q1_replicates": false,
+  "quad_coef": [
+   0.11334250936010865,
+   -0.0012023761566832545,
+   0.002666570590496579,
+   -0.000130556749234413,
+   -0.0006020874071852992,
+   -0.0003393413305197617
+  ],
+  "hessian_eigs": [
+   -0.0013135862361372326,
+   -0.00015170207670219183
+  ],
+  "concave": true,
+  "peak_mm": [
+   -11.807,
+   5.542
+  ],
+  "peak_inside": false,
+  "peak_value": 0.1278,
+  "rms_residual": 0.0019,
+  "n_probes": 21,
+  "q2_clear_peak": false,
+  "verdict": "FAIL"
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "scroll": "PHerc0211",
+ "params": {
+  "downsample_factor": 2,
+  "dust_threshold": 400,
+  "max_area_threshold": 640000,
+  "min_path_vertices": 10,
+  "path_mode": "interjoint",
+  "skeleton_parallel": 3,
+  "skeleton_parallel_chunk_size": 250,
+  "yx_chunk_thickness_v": 4,
+  "yx_stride_v": 16,
+  "z_chunk_depth_h": 2,
+  "z_chunk_stride_h": 8,
+  "z_max": 17500,
+  "z_min": 4500
+ },
+ "median_diam": 2.8284271247461903,
+ "merged_thr": 4.242640687119286,
+ "track_vertices": 654459,
+ "junction_share": 0.7926928959644531,
+ "merged_share": 0.15312189151650446,
+ "union_share": 0.7953928359148549,
+ "dropped_share": 0.359193651631709,
+ "ribbons": [
+  {
+   "z": 7748,
+   "fg": 1244345,
+   "n_big": 1,
+   "dropped": 0.41849245988853573,
+   "n_tracks": 1584
+  },
+  {
+   "z": 10996,
+   "fg": 1776913,
+   "n_big": 1,
+   "dropped": 0.4396669955141304,
+   "n_tracks": 3318
+  },
+  {
+   "z": 14252,
+   "fg": 2418376,
+   "n_big": 1,
+   "dropped": 0.2695540313003437,
+   "n_tracks": 7036
+  }
+ ]
+}

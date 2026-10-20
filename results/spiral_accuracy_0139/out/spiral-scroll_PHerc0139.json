@@ -1,0 +1,12 @@
+{
+ "schema_version": 1,
+ "name": "PHerc0139",
+ "voxel_size_um": 9.362,
+ "normal_zarr_group": "2",
+ "lasagna_scale": 4,
+ "paths": {
+  "tracks_dbm": "tracks/PHerc0139_20250728140407_surface_m7_L0_th0.2.dbm"
+ },
+ "z_direction_is_top_to_bottom": true,
+ "left_handed_coordinates": false
+}

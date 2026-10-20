@@ -1,0 +1,97 @@
+{
+ "transform_source": "catalog properties[20260102150214].transforms[0]",
+ "matrix": [
+  [
+   -0.2569036650583705,
+   -0.009715391643719536,
+   0.002790733227688403,
+   6677.364709056732
+  ],
+  [
+   0.009850885045974334,
+   -0.25680016838938274,
+   -0.0014215065457306453,
+   6689.120376657908
+  ],
+  [
+   0.0029113360690184954,
+   -0.0014844301309079428,
+   0.257134581099402,
+   624.1652625002474
+  ]
+ ],
+ "S0_d": {
+  "n_points": 12,
+  "median_vx": 1.98,
+  "max_vx": 3.08,
+  "PASS": true
+ },
+ "truth_wraps": [
+  23,
+  24,
+  25,
+  26,
+  27,
+  28,
+  29,
+  31,
+  32,
+  33,
+  34,
+  35,
+  36,
+  37,
+  38,
+  39,
+  40,
+  41,
+  42,
+  43,
+  44,
+  47,
+  48,
+  49,
+  50,
+  51,
+  52,
+  53,
+  54,
+  55,
+  56,
+  57,
+  58,
+  59
+ ],
+ "spiral_sense": {
+  "s": -1.0,
+  "continuity_lines": 1395,
+  "continuity_share_plus": 0.0738,
+  "slope_lines": 1717,
+  "slope_share_plus": 0.3395
+ },
+ "truth_seams": {
+  "n": 1825,
+  "theta_ref_deg": 352.5,
+  "largest_gap_deg": 161.5
+ },
+ "S0_a": {
+  "rays": 720,
+  "median_crossings_per_ray": 23.5,
+  "order_pairs": 10990,
+  "order_share": 0.9531,
+  "branch_pairs": 12310,
+  "branch_share": 1.0,
+  "PASS": true
+ },
+ "S0_c": {
+  "bins": 50,
+  "bins_ok": 50,
+  "worst_gap_deg": 4.7,
+  "min_r_vx": 440.9,
+  "PASS": true
+ },
+ "umbilicus_at_band_centre_xy": [
+  3071.1,
+  3760.4
+ ]
+}

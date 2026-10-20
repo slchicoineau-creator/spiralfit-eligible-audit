@@ -1,0 +1,61 @@
+{
+ "w025": {
+  "mapped_n": 14315,
+  "mapped_median": 0.997,
+  "mapped_share_gt09": 0.9974,
+  "native_n": 217925,
+  "native_median": 0.9971,
+  "native_share_gt09": 0.9965,
+  "mapped_nodata_share": 0.0
+ },
+ "w031": {
+  "mapped_n": 15872,
+  "mapped_median": 0.9964,
+  "mapped_share_gt09": 0.9975,
+  "native_n": 241096,
+  "native_median": 0.9969,
+  "native_share_gt09": 0.9978,
+  "mapped_nodata_share": 0.0
+ },
+ "w037": {
+  "mapped_n": 16404,
+  "mapped_median": 0.9956,
+  "mapped_share_gt09": 0.9882,
+  "native_n": 249318,
+  "native_median": 0.995,
+  "native_share_gt09": 0.9857,
+  "mapped_nodata_share": 0.0
+ },
+ "w043": {
+  "mapped_n": 18969,
+  "mapped_median": 0.9976,
+  "mapped_share_gt09": 0.9782,
+  "native_n": 288236,
+  "native_median": 0.9976,
+  "native_share_gt09": 0.9758,
+  "mapped_nodata_share": 0.0
+ },
+ "w049": {
+  "mapped_n": 21627,
+  "mapped_median": 0.9972,
+  "mapped_share_gt09": 0.9965,
+  "native_n": 328500,
+  "native_median": 0.997,
+  "native_share_gt09": 0.9956,
+  "mapped_nodata_share": 0.0
+ },
+ "w055": {
+  "mapped_n": 24483,
+  "mapped_median": 0.9968,
+  "mapped_share_gt09": 0.9926,
+  "native_n": 371616,
+  "native_median": 0.9964,
+  "native_share_gt09": 0.9897,
+  "mapped_nodata_share": 0.0
+ },
+ "pooled": {
+  "mapped_median": 0.9969,
+  "native_median": 0.9968,
+  "PASS": true
+ }
+}

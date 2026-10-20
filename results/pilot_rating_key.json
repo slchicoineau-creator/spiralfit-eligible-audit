@@ -1,0 +1,454 @@
+{
+ "key": {
+  "0a983a221e": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop00.png"
+  },
+  "7f2597092d": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop01.png"
+  },
+  "091eb982b6": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop02.png"
+  },
+  "01fa12a71f": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop03.png"
+  },
+  "ad04dd18c3": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop04.png"
+  },
+  "db33d425d0": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop05.png"
+  },
+  "a82a9773a8": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop06.png"
+  },
+  "cbc3e8c02c": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop07.png"
+  },
+  "d1b1752eb2": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop08.png"
+  },
+  "c25f3c58ab": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop09.png"
+  },
+  "b67e86b40d": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop10.png"
+  },
+  "928722cf05": {
+   "scroll": "PHerc0211",
+   "arm": "A",
+   "crop": "crop11.png"
+  },
+  "a7d232ff78": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop00.png"
+  },
+  "41eced5323": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop01.png"
+  },
+  "a1e3f1425b": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop02.png"
+  },
+  "a2af9f9d01": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop03.png"
+  },
+  "d78dd7a6b7": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop04.png"
+  },
+  "4f432922a0": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop05.png"
+  },
+  "bdc39c4f69": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop06.png"
+  },
+  "39694955f5": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop07.png"
+  },
+  "9dfd64fd1a": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop08.png"
+  },
+  "3c7a46fa63": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop09.png"
+  },
+  "00a8ea628d": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop10.png"
+  },
+  "1af0510f3f": {
+   "scroll": "PHerc0211",
+   "arm": "B",
+   "crop": "crop11.png"
+  },
+  "95669a4754": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop00.png"
+  },
+  "7bd49bbf44": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop01.png"
+  },
+  "0561e04864": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop02.png"
+  },
+  "66ad4fe08a": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop03.png"
+  },
+  "0d47766296": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop04.png"
+  },
+  "e2491e5292": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop05.png"
+  },
+  "f950b1ca05": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop06.png"
+  },
+  "9603a0ad47": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop07.png"
+  },
+  "cd4cbfd054": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop08.png"
+  },
+  "b1a84a3762": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop09.png"
+  },
+  "af25e9b3d5": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop10.png"
+  },
+  "83b47e4226": {
+   "scroll": "PHerc0211",
+   "arm": "C",
+   "crop": "crop11.png"
+  },
+  "eed0a4bf9c": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop00.png"
+  },
+  "65d4c7e239": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop01.png"
+  },
+  "a1d4461963": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop02.png"
+  },
+  "ce8059ff3a": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop03.png"
+  },
+  "ebbb507a03": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop04.png"
+  },
+  "d8dad8e13d": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop05.png"
+  },
+  "d2641c6313": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop06.png"
+  },
+  "36a4930ae5": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop07.png"
+  },
+  "ce25ff5e22": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop08.png"
+  },
+  "04063ef889": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop09.png"
+  },
+  "577b24ea92": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop10.png"
+  },
+  "5ebc7aa10f": {
+   "scroll": "PHerc0826",
+   "arm": "A",
+   "crop": "crop11.png"
+  },
+  "0817337f39": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop00.png"
+  },
+  "e538dcb91a": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop01.png"
+  },
+  "48f0772a3a": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop02.png"
+  },
+  "25ac3da4ed": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop03.png"
+  },
+  "247c74f3e9": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop04.png"
+  },
+  "05f3d7e905": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop05.png"
+  },
+  "a16662a883": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop06.png"
+  },
+  "f1e7fc7952": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop07.png"
+  },
+  "5cbaf22369": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop08.png"
+  },
+  "3c8f34b289": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop09.png"
+  },
+  "f957d128d7": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop10.png"
+  },
+  "f51ec01484": {
+   "scroll": "PHerc0826",
+   "arm": "B",
+   "crop": "crop11.png"
+  },
+  "aaa398336c": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop00.png"
+  },
+  "1cef466b0b": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop01.png"
+  },
+  "d044788c2a": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop02.png"
+  },
+  "4293f98f9d": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop03.png"
+  },
+  "d8366e5c52": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop04.png"
+  },
+  "dd783262ca": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop05.png"
+  },
+  "ec3f27c508": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop06.png"
+  },
+  "bc00977323": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop07.png"
+  },
+  "7080763521": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop08.png"
+  },
+  "0adeafa205": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop09.png"
+  },
+  "eddc043e15": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop10.png"
+  },
+  "ab3e35470d": {
+   "scroll": "PHerc0826",
+   "arm": "C",
+   "crop": "crop11.png"
+  }
+ },
+ "order": [
+  "f957d128d7",
+  "bc00977323",
+  "a7d232ff78",
+  "f950b1ca05",
+  "cbc3e8c02c",
+  "ebbb507a03",
+  "7f2597092d",
+  "1cef466b0b",
+  "a1e3f1425b",
+  "e2491e5292",
+  "f1e7fc7952",
+  "a1d4461963",
+  "bdc39c4f69",
+  "0817337f39",
+  "577b24ea92",
+  "01fa12a71f",
+  "af25e9b3d5",
+  "dd783262ca",
+  "eed0a4bf9c",
+  "0561e04864",
+  "a16662a883",
+  "a2af9f9d01",
+  "0a983a221e",
+  "aaa398336c",
+  "5ebc7aa10f",
+  "d78dd7a6b7",
+  "9603a0ad47",
+  "f51ec01484",
+  "b67e86b40d",
+  "ab3e35470d",
+  "c25f3c58ab",
+  "ec3f27c508",
+  "3c7a46fa63",
+  "3c8f34b289",
+  "65d4c7e239",
+  "cd4cbfd054",
+  "a82a9773a8",
+  "36a4930ae5",
+  "d8366e5c52",
+  "e538dcb91a",
+  "66ad4fe08a",
+  "41eced5323",
+  "95669a4754",
+  "d1b1752eb2",
+  "1af0510f3f",
+  "247c74f3e9",
+  "7080763521",
+  "ce25ff5e22",
+  "00a8ea628d",
+  "d2641c6313",
+  "7bd49bbf44",
+  "25ac3da4ed",
+  "ad04dd18c3",
+  "d044788c2a",
+  "9dfd64fd1a",
+  "ce8059ff3a",
+  "05f3d7e905",
+  "83b47e4226",
+  "d78dd7a6b7",
+  "928722cf05",
+  "0adeafa205",
+  "0d47766296",
+  "d8dad8e13d",
+  "ab3e35470d",
+  "4f432922a0",
+  "db33d425d0",
+  "65d4c7e239",
+  "4293f98f9d",
+  "48f0772a3a",
+  "091eb982b6",
+  "5cbaf22369",
+  "ebbb507a03",
+  "247c74f3e9",
+  "95669a4754",
+  "04063ef889",
+  "eddc043e15",
+  "7bd49bbf44",
+  "39694955f5",
+  "b1a84a3762"
+ ],
+ "repeats": [
+  "95669a4754",
+  "65d4c7e239",
+  "ebbb507a03",
+  "7bd49bbf44",
+  "d78dd7a6b7",
+  "247c74f3e9",
+  "ab3e35470d"
+ ]
+}

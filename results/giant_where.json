@@ -1,0 +1,47 @@
+{
+ "PHerc0125": {
+  "z": 10996,
+  "giant_share_of_fg": 0.378,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0191": {
+  "z": 10996,
+  "giant_share_of_fg": 0.285,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0211": {
+  "z": 10996,
+  "giant_share_of_fg": 0.44,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0257": {
+  "z": 10996,
+  "giant_share_of_fg": 0.391,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0268": {
+  "z": 9668,
+  "giant_share_of_fg": 0.25,
+  "giant_share_outside_body": 0.937
+ },
+ "PHerc0358": {
+  "z": 9620,
+  "giant_share_of_fg": 0.406,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0813": {
+  "z": 10748,
+  "giant_share_of_fg": 0.32,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0826": {
+  "z": 10708,
+  "giant_share_of_fg": 0.501,
+  "giant_share_outside_body": 1.0
+ },
+ "PHerc0139": {
+  "z": 10996,
+  "giant_share_of_fg": 0.181,
+  "giant_share_outside_body": 1.0
+ }
+}

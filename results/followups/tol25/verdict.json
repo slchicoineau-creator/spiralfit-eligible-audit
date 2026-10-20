@@ -1,0 +1,554 @@
+{
+ "prereg": "prereg/2026-10-06_seb_tol25.md",
+ "verdict": "NOT-TOLERATED-25",
+ "sentence": "+y: < 25 vx (0.23 mm); +x: < 50 vx (0.47 mm), 0.23 mm not tested. Rigid shift of the published axis, one band (PHerc0826 [8136, 9136), arm A), 3 fitter seeds at 25 vx; the 12 cross pairs are 4 baselines x 3 fits (correlated). The headline may say '< 0.23 mm' only with '(in +y)'; never 'in both directions'. A tolerance relative to the published axis, not a measure of its accuracy.",
+ "floor": 0.538,
+ "limit": 1,
+ "bars": {
+  "tolerated": "cross not tolerated <= 6/12 or median cross >= median within (checked first)",
+  "not_tolerated": "cross not tolerated >= 10/12 AND within not tolerated <= 1/3 AND median cross < min within",
+  "edge": "anything else (7-9/12)",
+  "inconclusive": "< 3 usable y25 fits"
+ },
+ "seed_pairs": {
+  "seed1|seed2": {
+   "share": 0.672,
+   "range": 0
+  },
+  "seed1|seed3": {
+   "share": 0.672,
+   "range": 0
+  },
+  "seed1|seed4": {
+   "share": 0.642,
+   "range": 1
+  },
+  "seed2|seed3": {
+   "share": 0.694,
+   "range": 0
+  },
+  "seed2|seed4": {
+   "share": 0.638,
+   "range": 1
+  },
+  "seed3|seed4": {
+   "share": 0.684,
+   "range": 0
+  }
+ },
+ "y25": {
+  "fits": [
+   "y25",
+   "y25_s2",
+   "y25_s3"
+  ],
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "n_cross": 12,
+  "n_within": 3,
+  "cross_not_tolerated": 12,
+  "within_not_tolerated": 0,
+  "median_cross_share": 0.468,
+  "min_within_share": 0.621,
+  "median_within_share": 0.63,
+  "state": "NOT-TOLERATED-25",
+  "columns": {
+   "seed1": {
+    "median_share": 0.478,
+    "shares": [
+     0.489,
+     0.427,
+     0.478
+    ],
+    "ranges": [
+     2,
+     1,
+     2
+    ],
+    "not_tolerated": 3
+   },
+   "seed2": {
+    "median_share": 0.474,
+    "shares": [
+     0.483,
+     0.433,
+     0.474
+    ],
+    "ranges": [
+     2,
+     2,
+     2
+    ],
+    "not_tolerated": 3
+   },
+   "seed3": {
+    "median_share": 0.462,
+    "shares": [
+     0.462,
+     0.447,
+     0.485
+    ],
+    "ranges": [
+     2,
+     2,
+     2
+    ],
+    "not_tolerated": 3
+   },
+   "seed4": {
+    "median_share": 0.461,
+    "shares": [
+     0.45,
+     0.492,
+     0.461
+    ],
+    "ranges": [
+     2,
+     2,
+     2
+    ],
+    "not_tolerated": 3
+   }
+  },
+  "cross": {
+   "seed1|y25": {
+    "share": 0.489,
+    "range": 2,
+    "p2s": 1.51,
+    "outer": {
+     "000": 0,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed2|y25": {
+    "share": 0.483,
+    "range": 2,
+    "p2s": 1.56,
+    "outer": {
+     "000": 0,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed3|y25": {
+    "share": 0.462,
+    "range": 2,
+    "p2s": 1.61,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed4|y25": {
+    "share": 0.45,
+    "range": 2,
+    "p2s": 1.66,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed1|y25_s2": {
+    "share": 0.427,
+    "range": 1,
+    "p2s": 1.66,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed2|y25_s2": {
+    "share": 0.433,
+    "range": 2,
+    "p2s": 1.63,
+    "outer": {
+     "000": 1,
+     "045": 0,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed3|y25_s2": {
+    "share": 0.447,
+    "range": 2,
+    "p2s": 1.7,
+    "outer": {
+     "000": 1,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed4|y25_s2": {
+    "share": 0.492,
+    "range": 2,
+    "p2s": 1.64,
+    "outer": {
+     "000": 1,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed1|y25_s3": {
+    "share": 0.478,
+    "range": 2,
+    "p2s": 1.6,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed2|y25_s3": {
+    "share": 0.474,
+    "range": 2,
+    "p2s": 1.58,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed3|y25_s3": {
+    "share": 0.485,
+    "range": 2,
+    "p2s": 1.62,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed4|y25_s3": {
+    "share": 0.461,
+    "range": 2,
+    "p2s": 1.72,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   }
+  },
+  "within": {
+   "y25|y25_s2": {
+    "share": 0.63,
+    "range": 1,
+    "p2s": 1.43,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": -1,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": true
+   },
+   "y25|y25_s3": {
+    "share": 0.689,
+    "range": 0,
+    "p2s": 1.34,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": true
+   },
+   "y25_s2|y25_s3": {
+    "share": 0.621,
+    "range": 1,
+    "p2s": 1.51,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 1,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "tolerated": true
+   }
+  },
+  "fit_status": {
+   "y25": {
+    "n": 100,
+    "first": 10,
+    "last": 109,
+    "theta_axis": 1,
+    "ok": true
+   },
+   "y25_s2": {
+    "n": 100,
+    "first": 10,
+    "last": 109,
+    "theta_axis": 1,
+    "ok": true
+   },
+   "y25_s3": {
+    "n": 100,
+    "first": 10,
+    "last": 109,
+    "theta_axis": 1,
+    "ok": true
+   }
+  },
+  "missing_or_unusable": [],
+  "same_seed_cross": {
+   "seed1|y25": {
+    "share": 0.489,
+    "range": 2,
+    "p2s": 1.51,
+    "outer": {
+     "000": 0,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed2|y25_s2": {
+    "share": 0.433,
+    "range": 2,
+    "p2s": 1.63,
+    "outer": {
+     "000": 1,
+     "045": 0,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   },
+   "seed3|y25_s3": {
+    "share": 0.485,
+    "range": 2,
+    "p2s": 1.62,
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "tolerated": false
+   }
+  },
+  "y50_columns": {
+   "seed1": {
+    "median_share": 0.292,
+    "ranges": [
+     3,
+     3,
+     3,
+     3,
+     3
+    ]
+   },
+   "seed2": {
+    "median_share": 0.302,
+    "ranges": [
+     4,
+     3,
+     3,
+     4,
+     4
+    ]
+   },
+   "seed3": {
+    "median_share": 0.337,
+    "ranges": [
+     4,
+     3,
+     3,
+     3,
+     3
+    ]
+   },
+   "seed4": {
+    "median_share": 0.373,
+    "ranges": [
+     4,
+     3,
+     2,
+     4,
+     3
+    ]
+   }
+  },
+  "critic_forecast_columns": {
+   "linear": [
+    0.482,
+    0.487,
+    0.511,
+    0.508
+   ],
+   "exp": [
+    0.395,
+    0.414,
+    0.463,
+    0.49
+   ],
+   "order": [
+    "seed1",
+    "seed2",
+    "seed3",
+    "seed4"
+   ]
+  }
+ },
+ "stage0": {
+  "recipe_pass": true,
+  "spot": {
+   "seed1|seed2": {
+    "match": true,
+    "share": 0.672,
+    "range": 0,
+    "seed3_share": 0.672,
+    "seed3_range": 0
+   },
+   "seed1|seed3": {
+    "match": true,
+    "share": 0.672,
+    "range": 0,
+    "seed3_share": 0.672,
+    "seed3_range": 0
+   },
+   "seed1|seed4": {
+    "match": true,
+    "share": 0.642,
+    "range": 1,
+    "seed3_share": 0.642,
+    "seed3_range": 1
+   },
+   "seed2|seed3": {
+    "match": true,
+    "share": 0.694,
+    "range": 0,
+    "seed3_share": 0.694,
+    "seed3_range": 0
+   },
+   "seed2|seed4": {
+    "match": true,
+    "share": 0.638,
+    "range": 1,
+    "seed3_share": 0.638,
+    "seed3_range": 1
+   },
+   "seed3|seed4": {
+    "match": true,
+    "share": 0.684,
+    "range": 0,
+    "seed3_share": 0.684,
+    "seed3_range": 0
+   },
+   "seed1|y50_s3": {
+    "match": true,
+    "share": 0.291,
+    "range": 3,
+    "seed3_share": 0.291,
+    "seed3_range": 3
+   }
+  },
+  "floor": 0.538,
+  "limit": 1
+ },
+ "note": "cross pairs = 3 shifted fits x 4 unshifted fits (4 baseline columns): correlated, not 12 independent tests; one band; +y only (+x 25 vx not run); rigid shift of the published axis"
+}

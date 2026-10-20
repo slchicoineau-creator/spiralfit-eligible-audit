@@ -1,0 +1,777 @@
+{
+ "rule": [
+  "baseline fit (published umbilicus, seed 1) by fit_compare.py.",
+  "Rule: a shift is TOLERATED iff outer sector range <= 1 AND share at the modal turn offset >= (lowest seed pair) - 0.10.",
+  "Tolerance per direction = the largest shift on the ladder tolerated with every smaller shift in that direction also",
+  "tolerated. Headline = min(+x, +y). If a seed pair itself has outer sector range > 1, the range limit becomes the largest"
+ ],
+ "summary": {
+  "share_floor": 0.542,
+  "range_limit": 1,
+  "per_direction": {
+   "+x": {
+    "tolerance_vx": 0,
+    "tolerance_mm": 0.0,
+    "all_tolerated": false,
+    "verdicts": {
+     "50": "NOT tolerated"
+    }
+   },
+   "+y": {
+    "tolerance_vx": 0,
+    "tolerance_mm": 0.0,
+    "all_tolerated": false,
+    "verdicts": {
+     "50": "NOT tolerated"
+    }
+   }
+  },
+  "headline": "< 50 vx (0.47 mm)"
+ },
+ "fits": {
+  "seed2": {
+   "nearest_vertex": {
+    "median": 6.9,
+    "within2": 0.044,
+    "within4": 0.208,
+    "p90": 14.07
+   },
+   "point_to_surface": {
+    "median": 1.33,
+    "within2": 0.618,
+    "within4": 0.786,
+    "p90": 8.29
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 0,
+   "turn_share_at_mode": 0.672,
+   "turn_offsets_top": {
+    "0": 0.672,
+    "-1": 0.117,
+    "1": 0.116,
+    "2": 0.031,
+    "-2": 0.024
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "middle": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    }
+   },
+   "outer_sector_range": 0,
+   "n_other": 1475057,
+   "n_colocated": 1113339,
+   "satisfied_tracks_fraction": 0.1142,
+   "satisfied_track_points_fraction": 0.4562
+  },
+  "x250": {
+   "nearest_vertex": {
+    "median": 8.81,
+    "within2": 0.015,
+    "within4": 0.094,
+    "p90": 16.62
+   },
+   "point_to_surface": {
+    "median": 2.01,
+    "within2": 0.499,
+    "within4": 0.686,
+    "p90": 13.79
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": -2,
+   "turn_share_at_mode": 0.243,
+   "turn_offsets_top": {
+    "-2": 0.243,
+    "-1": 0.192,
+    "0": 0.08,
+    "1": 0.061,
+    "7": 0.059
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 2,
+     "045": 2,
+     "090": 2,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 1
+    },
+    "middle": {
+     "000": 7,
+     "045": 4,
+     "090": -2,
+     "135": -2,
+     "180": -2,
+     "225": -2,
+     "270": -2,
+     "315": -1
+    },
+    "outer": {
+     "000": 7,
+     "045": 7,
+     "090": -2,
+     "135": -2,
+     "180": -2,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    }
+   },
+   "outer_sector_range": 9,
+   "n_other": 1449138,
+   "n_colocated": 954448,
+   "satisfied_tracks_fraction": 0.1103,
+   "satisfied_track_points_fraction": 0.4407
+  },
+  "seed3": {
+   "nearest_vertex": {
+    "median": 6.88,
+    "within2": 0.047,
+    "within4": 0.212,
+    "p90": 14.24
+   },
+   "point_to_surface": {
+    "median": 1.35,
+    "within2": 0.611,
+    "within4": 0.779,
+    "p90": 8.71
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 0,
+   "turn_share_at_mode": 0.672,
+   "turn_offsets_top": {
+    "0": 0.672,
+    "-1": 0.126,
+    "1": 0.11,
+    "-2": 0.028,
+    "2": 0.027
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "middle": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    }
+   },
+   "outer_sector_range": 0,
+   "n_other": 1466845,
+   "n_colocated": 1096256,
+   "satisfied_tracks_fraction": 0.1138,
+   "satisfied_track_points_fraction": 0.4549
+  },
+  "seed4": {
+   "nearest_vertex": {
+    "median": 6.85,
+    "within2": 0.05,
+    "within4": 0.217,
+    "p90": 14.2
+   },
+   "point_to_surface": {
+    "median": 1.4,
+    "within2": 0.6,
+    "within4": 0.771,
+    "p90": 8.8
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 0,
+   "turn_share_at_mode": 0.642,
+   "turn_offsets_top": {
+    "0": 0.642,
+    "-1": 0.174,
+    "1": 0.091,
+    "-2": 0.032,
+    "2": 0.023
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "middle": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": -1,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    }
+   },
+   "outer_sector_range": 1,
+   "n_other": 1472485,
+   "n_colocated": 1089741,
+   "satisfied_tracks_fraction": 0.115,
+   "satisfied_track_points_fraction": 0.457
+  },
+  "x50": {
+   "nearest_vertex": {
+    "median": 7.49,
+    "within2": 0.027,
+    "within4": 0.155,
+    "p90": 14.49
+   },
+   "point_to_surface": {
+    "median": 1.69,
+    "within2": 0.551,
+    "within4": 0.747,
+    "p90": 9.27
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 0,
+   "turn_share_at_mode": 0.385,
+   "turn_offsets_top": {
+    "0": 0.385,
+    "-1": 0.285,
+    "1": 0.176,
+    "2": 0.047,
+    "-2": 0.044
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "middle": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": 0,
+     "315": 0
+    },
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": -1,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": 0,
+     "315": 0
+    }
+   },
+   "outer_sector_range": 2,
+   "n_other": 1459962,
+   "n_colocated": 1046806,
+   "satisfied_tracks_fraction": 0.1127,
+   "satisfied_track_points_fraction": 0.4505
+  },
+  "y50": {
+   "nearest_vertex": {
+    "median": 7.78,
+    "within2": 0.023,
+    "within4": 0.136,
+    "p90": 14.92
+   },
+   "point_to_surface": {
+    "median": 1.83,
+    "within2": 0.527,
+    "within4": 0.726,
+    "p90": 10.09
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 0,
+   "turn_share_at_mode": 0.292,
+   "turn_offsets_top": {
+    "0": 0.292,
+    "-1": 0.248,
+    "1": 0.135,
+    "-2": 0.102,
+    "2": 0.077
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "middle": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": 0,
+     "315": 0
+    },
+    "outer": {
+     "000": 1,
+     "045": 1,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -2,
+     "270": -2,
+     "315": -2
+    }
+   },
+   "outer_sector_range": 3,
+   "n_other": 1459378,
+   "n_colocated": 1016104,
+   "satisfied_tracks_fraction": 0.1147,
+   "satisfied_track_points_fraction": 0.457
+  },
+  "x100": {
+   "nearest_vertex": {
+    "median": 8.05,
+    "within2": 0.02,
+    "within4": 0.124,
+    "p90": 15.21
+   },
+   "point_to_surface": {
+    "median": 1.82,
+    "within2": 0.527,
+    "within4": 0.719,
+    "p90": 10.83
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 0,
+   "turn_share_at_mode": 0.319,
+   "turn_offsets_top": {
+    "0": 0.319,
+    "-1": 0.255,
+    "1": 0.131,
+    "2": 0.126,
+    "3": 0.054
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "middle": {
+     "000": 2,
+     "045": 2,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": 0
+    },
+    "outer": {
+     "000": 2,
+     "045": 2,
+     "090": -1,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": 0,
+     "315": 0
+    }
+   },
+   "outer_sector_range": 3,
+   "n_other": 1478512,
+   "n_colocated": 1020514,
+   "satisfied_tracks_fraction": 0.1114,
+   "satisfied_track_points_fraction": 0.4444
+  },
+  "x500": {
+   "nearest_vertex": {
+    "median": 9.91,
+    "within2": 0.01,
+    "within4": 0.065,
+    "p90": 21.22
+   },
+   "point_to_surface": {
+    "median": 2.79,
+    "within2": 0.411,
+    "within4": 0.595,
+    "p90": 22.0
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": -4,
+   "turn_share_at_mode": 0.183,
+   "turn_offsets_top": {
+    "-4": 0.183,
+    "-5": 0.151,
+    "-3": 0.096,
+    "-2": 0.063,
+    "-1": 0.036
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 8,
+     "045": 8,
+     "090": -2,
+     "135": -2,
+     "180": -2,
+     "225": -2,
+     "270": -2,
+     "315": -1
+    },
+    "middle": {
+     "000": 13,
+     "045": -4,
+     "090": -4,
+     "135": -5,
+     "180": -5,
+     "225": -4,
+     "270": -4,
+     "315": -4
+    },
+    "outer": {
+     "000": 15,
+     "045": 15,
+     "090": -4,
+     "135": -5,
+     "180": -5,
+     "225": -4,
+     "270": -3,
+     "315": -3
+    }
+   },
+   "outer_sector_range": 20,
+   "n_other": 1437326,
+   "n_colocated": 821006,
+   "satisfied_tracks_fraction": 0.1042,
+   "satisfied_track_points_fraction": 0.4108
+  },
+  "y100": {
+   "nearest_vertex": {
+    "median": 8.28,
+    "within2": 0.019,
+    "within4": 0.116,
+    "p90": 15.46
+   },
+   "point_to_surface": {
+    "median": 1.93,
+    "within2": 0.511,
+    "within4": 0.706,
+    "p90": 11.2
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": -1,
+   "turn_share_at_mode": 0.24,
+   "turn_offsets_top": {
+    "-1": 0.24,
+    "0": 0.151,
+    "1": 0.111,
+    "-2": 0.084,
+    "3": 0.076
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 3,
+     "045": 3,
+     "090": 3,
+     "135": 3,
+     "180": 1,
+     "225": 1,
+     "270": 1,
+     "315": 1
+    },
+    "middle": {
+     "000": 2,
+     "045": 3,
+     "090": 0,
+     "135": -1,
+     "180": -1,
+     "225": -1,
+     "270": -1,
+     "315": -1
+    },
+    "outer": {
+     "000": 3,
+     "045": 3,
+     "090": -1,
+     "135": -1,
+     "180": -1,
+     "225": -4,
+     "270": -3,
+     "315": -3
+    }
+   },
+   "outer_sector_range": 7,
+   "n_other": 1453271,
+   "n_colocated": 985138,
+   "satisfied_tracks_fraction": 0.1124,
+   "satisfied_track_points_fraction": 0.443
+  },
+  "y250": {
+   "nearest_vertex": {
+    "median": 9.49,
+    "within2": 0.011,
+    "within4": 0.075,
+    "p90": 17.36
+   },
+   "point_to_surface": {
+    "median": 2.58,
+    "within2": 0.432,
+    "within4": 0.62,
+    "p90": 15.47
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": -3,
+   "turn_share_at_mode": 0.15,
+   "turn_offsets_top": {
+    "-3": 0.15,
+    "-2": 0.11,
+    "-4": 0.094,
+    "-5": 0.052,
+    "3": 0.047
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 5,
+     "045": 5,
+     "090": 3,
+     "135": 3,
+     "180": 3,
+     "225": 3,
+     "270": 3,
+     "315": 3
+    },
+    "middle": {
+     "000": 9,
+     "045": 9,
+     "090": -2,
+     "135": -2,
+     "180": -3,
+     "225": -3,
+     "270": -3,
+     "315": -3
+    },
+    "outer": {
+     "000": 10,
+     "045": 10,
+     "090": -4,
+     "135": -4,
+     "180": -4,
+     "225": -6,
+     "270": -6,
+     "315": -8
+    }
+   },
+   "outer_sector_range": 18,
+   "n_other": 1403792,
+   "n_colocated": 835422,
+   "satisfied_tracks_fraction": 0.116,
+   "satisfied_track_points_fraction": 0.4464
+  },
+  "y500": {
+   "nearest_vertex": {
+    "median": 10.38,
+    "within2": 0.008,
+    "within4": 0.058,
+    "p90": 20.64
+   },
+   "point_to_surface": {
+    "median": 3.26,
+    "within2": 0.375,
+    "within4": 0.553,
+    "p90": 21.21
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": -7,
+   "turn_share_at_mode": 0.131,
+   "turn_offsets_top": {
+    "-7": 0.131,
+    "-6": 0.089,
+    "-8": 0.076,
+    "-5": 0.058,
+    "-9": 0.052
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": -1,
+     "045": 5,
+     "090": -2,
+     "135": -2,
+     "180": -2,
+     "225": -2,
+     "270": -2,
+     "315": -2
+    },
+    "middle": {
+     "000": 19,
+     "045": 23,
+     "090": -5,
+     "135": -5,
+     "180": -7,
+     "225": -7,
+     "270": -7,
+     "315": -7
+    },
+    "outer": {
+     "000": 14,
+     "045": 20,
+     "090": -6,
+     "135": -9,
+     "180": -10,
+     "225": -10,
+     "270": -10,
+     "315": -10
+    }
+   },
+   "outer_sector_range": 30,
+   "n_other": 1380564,
+   "n_colocated": 732640,
+   "satisfied_tracks_fraction": 0.1135,
+   "satisfied_track_points_fraction": 0.4357
+  },
+  "xm250": {
+   "nearest_vertex": {
+    "median": 9.03,
+    "within2": 0.014,
+    "within4": 0.089,
+    "p90": 17.14
+   },
+   "point_to_surface": {
+    "median": 2.21,
+    "within2": 0.472,
+    "within4": 0.666,
+    "p90": 15.16
+   },
+   "grid_step_vx": 20.0,
+   "turn_modal_offset": 2,
+   "turn_share_at_mode": 0.267,
+   "turn_offsets_top": {
+    "2": 0.267,
+    "3": 0.175,
+    "1": 0.136,
+    "0": 0.076,
+    "-1": 0.047
+   },
+   "outer_windings": "w77-109",
+   "sector_modal_offset": {
+    "inner": {
+     "000": 0,
+     "045": 1,
+     "090": 1,
+     "135": 1,
+     "180": 1,
+     "225": 1,
+     "270": 1,
+     "315": 1
+    },
+    "middle": {
+     "000": -4,
+     "045": -4,
+     "090": 3,
+     "135": 3,
+     "180": 3,
+     "225": 2,
+     "270": 2,
+     "315": 2
+    },
+    "outer": {
+     "000": -4,
+     "045": -3,
+     "090": 2,
+     "135": 2,
+     "180": 2,
+     "225": 2,
+     "270": 2,
+     "315": -1
+    }
+   },
+   "outer_sector_range": 6,
+   "n_other": 1467352,
+   "n_colocated": 938610,
+   "satisfied_tracks_fraction": 0.1161,
+   "satisfied_track_points_fraction": 0.465
+  }
+ }
+}

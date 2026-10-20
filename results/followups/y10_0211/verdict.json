@@ -1,0 +1,428 @@
+{
+ "prereg": "prereg/2026-10-08_seb_y10tol0211.md",
+ "verdict": "TOLERATED-10",
+ "sentence": "a 0.09 mm +y shift is tolerated by the note's rule on PHerc0211 [10496, 11496), so on this band the +y tolerance lies between 0.09 and 0.23 mm (in +y, PHerc0211 [10496, 11496), by the note's rule: fixed 0.10 share margin below the lowest unshifted pair, outer range <= 1; one band, 3 seeds, correlated pairs; a rigid shift of the published axis, not a measure of its accuracy; not carried to PHerc0826 or to +x)",
+ "floor": 0.791,
+ "limit": 1,
+ "bars": {
+  "tolerated": "cross tolerated >= 8/9",
+  "not_tolerated": "cross NOT tolerated >= 7/9",
+  "middle": "otherwise (3-7 of 9 tolerated)",
+  "within": "descriptive only"
+ },
+ "y10": {
+  "fits": [
+   "y10_s1",
+   "y10_s2",
+   "y10_s3"
+  ],
+  "seeds": [
+   1,
+   2,
+   3
+  ],
+  "n_cross": 9,
+  "n_within": 3,
+  "cross_tolerated": 9,
+  "cross_not_tolerated": 0,
+  "within_not_tolerated": 0,
+  "n_diff_seed": 6,
+  "diff_seed_tolerated": 6,
+  "min_cross_share": 0.852,
+  "min_cross_margin": 0.061,
+  "median_cross_share": 0.858,
+  "min_within_share": 0.905,
+  "median_within_share": 0.91,
+  "state": "TOLERATED-10",
+  "cross": {
+   "s1|y10_s1": {
+    "share": 0.857,
+    "range": 0,
+    "p2s": 1.29,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s2|y10_s1": {
+    "share": 0.852,
+    "range": 0,
+    "p2s": 1.32,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s3|y10_s1": {
+    "share": 0.858,
+    "range": 0,
+    "p2s": 1.29,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s1|y10_s2": {
+    "share": 0.854,
+    "range": 0,
+    "p2s": 1.3,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s2|y10_s2": {
+    "share": 0.86,
+    "range": 0,
+    "p2s": 1.18,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s3|y10_s2": {
+    "share": 0.855,
+    "range": 0,
+    "p2s": 1.23,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s1|y10_s3": {
+    "share": 0.864,
+    "range": 0,
+    "p2s": 1.23,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s2|y10_s3": {
+    "share": 0.861,
+    "range": 0,
+    "p2s": 1.24,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s3|y10_s3": {
+    "share": 0.869,
+    "range": 0,
+    "p2s": 1.16,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   }
+  },
+  "within": {
+   "y10_s1|y10_s2": {
+    "share": 0.905,
+    "range": 0,
+    "p2s": 0.96,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "y10_s1|y10_s3": {
+    "share": 0.91,
+    "range": 0,
+    "p2s": 0.92,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "y10_s2|y10_s3": {
+    "share": 0.915,
+    "range": 0,
+    "p2s": 0.89,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   }
+  },
+  "gap_below_min_unshifted": {
+   "s1|y10_s1": 0.034,
+   "s2|y10_s1": 0.039,
+   "s3|y10_s1": 0.033,
+   "s1|y10_s2": 0.037,
+   "s2|y10_s2": 0.031,
+   "s3|y10_s2": 0.036,
+   "s1|y10_s3": 0.027,
+   "s2|y10_s3": 0.03,
+   "s3|y10_s3": 0.022
+  },
+  "cross_range1": 0,
+  "cross_range2plus": 0,
+  "cross_not_tolerated_by_share": 0,
+  "cross_not_tolerated_by_range": 0,
+  "same_seed_cross": {
+   "s1|y10_s1": {
+    "share": 0.857,
+    "range": 0,
+    "p2s": 1.29,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s2|y10_s2": {
+    "share": 0.86,
+    "range": 0,
+    "p2s": 1.18,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   },
+   "s3|y10_s3": {
+    "share": 0.869,
+    "range": 0,
+    "p2s": 1.16,
+    "outer": {
+     "000": 0,
+     "045": 0,
+     "090": 0,
+     "135": 0,
+     "180": 0,
+     "225": 0,
+     "270": 0,
+     "315": 0
+    },
+    "largest_offset_sector": "000",
+    "tolerated": true,
+    "fails_share": false,
+    "fails_range": false
+   }
+  },
+  "guard": {
+   "shift": "y10",
+   "tag": "seed1r_y10",
+   "windings": {
+    "n": 90,
+    "first": 10,
+    "last": 99,
+    "theta_axis": 1,
+    "ok": true
+   },
+   "share": 0.961,
+   "range": 0,
+   "p2s": 0.46,
+   "identical": false,
+   "pass_": true
+  },
+  "umbcheck_pass": true,
+  "missing_or_unusable": [],
+  "descriptive": {
+   "band_scaled_floor": 0.726,
+   "ratio_0826": 0.807,
+   "u_mean": 0.9,
+   "share_over_baseline": {
+    "s1|y10_s1": 0.952,
+    "s2|y10_s1": 0.947,
+    "s3|y10_s1": 0.953,
+    "s1|y10_s2": 0.949,
+    "s2|y10_s2": 0.956,
+    "s3|y10_s2": 0.95,
+    "s1|y10_s3": 0.96,
+    "s2|y10_s3": 0.957,
+    "s3|y10_s3": 0.966
+   },
+   "below_band_scaled_floor": {
+    "s1|y10_s1": false,
+    "s2|y10_s1": false,
+    "s3|y10_s1": false,
+    "s1|y10_s2": false,
+    "s2|y10_s2": false,
+    "s3|y10_s2": false,
+    "s1|y10_s3": false,
+    "s2|y10_s3": false,
+    "s3|y10_s3": false
+   },
+   "n_below_band_scaled_floor": 0,
+   "y10_cross": {
+    "min": 0.852,
+    "median": 0.858,
+    "max": 0.869,
+    "mean": 0.8589
+   },
+   "y25_cross": {
+    "min": 0.701,
+    "median": 0.716,
+    "max": 0.763,
+    "mean": 0.7232,
+    "state": "HOLDS"
+   },
+   "y50_cross": {
+    "min": 0.47,
+    "median": 0.493,
+    "max": 0.518,
+    "mean": 0.4921,
+    "state": "HOLDS"
+   },
+   "f10_of_25": 0.233,
+   "f10_of_50": 0.101,
+   "forecast_mean_cross": {
+    "linear": 0.829,
+    "quadratic": 0.836
+   },
+   "forecast_error_linear": 0.0299,
+   "per_seed_mean_cross": {
+    "1": 0.856,
+    "2": 0.856,
+    "3": 0.865
+   },
+   "per_baseline_mean_cross": {
+    "s1": 0.858,
+    "s2": 0.858,
+    "s3": 0.861
+   }
+  }
+ },
+ "note": "9 cross pairs = 3 shifted x 3 unshifted fits (3 same-seed pairs): correlated, not 9 independent tests; 'tolerated' = by the note's rule, never 'within seed noise'; never 'renumbers'"
+}

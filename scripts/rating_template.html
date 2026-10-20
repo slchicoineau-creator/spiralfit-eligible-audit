@@ -1,0 +1,60 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sheet or Swirl Rating</title>
+<style>
+:root{--bg:#f7f7f5;--card:#fff;--ink:#1d1d1f;--muted:#5f6368;--line:#dcdcdc;--good:#1b7f3b;--bad:#b3261e;--accent:#2457c5}
+@media (prefers-color-scheme:dark){:root{--bg:#141414;--card:#1f1f1f;--ink:#ececec;--muted:#a8a8a8;--line:#333;--good:#5cc47d;--bad:#f28b82;--accent:#8ab4f8}}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:960px;margin:0 auto;padding:16px}
+h1{font-size:1.6rem;margin:.4em 0} h2{font-size:1.2rem;margin:1em 0 .4em}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px;margin:12px 0}
+.row{display:flex;flex-wrap:wrap;gap:12px} .ex{flex:1 1 200px} .ex img{width:100%;max-width:300px;border-radius:6px;display:block}
+.tag{font-weight:600} .good{color:var(--good)} .bad{color:var(--bad)} .muted{color:var(--muted)}
+.btns{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+button{font:inherit;padding:10px 14px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink);cursor:pointer}
+button.primary{background:var(--accent);color:#fff;border-color:var(--accent)} button kbd{opacity:.6;font-size:.8em;margin-left:4px}
+#pic{width:100%;max-width:520px;border-radius:6px;display:block;image-rendering:auto}
+.hidden{display:none} progress{width:100%} summary{cursor:pointer;font-weight:600}
+</style></head><body><main>
+<h1>Sheet or Swirl? Rating</h1>
+<div class="card" id="intro">
+<p>Same question as in the training: <b>how much of the picture is clean sheet (crisscross papyrus fibres)?</b>
+Everywhere / Mostly / Some / None. Black areas are simply outside the traced surface; ignore them.</p>
+<p class="muted">Rate each picture on its own, by gut feeling (5 to 15 seconds each). Some pictures look alike and a few
+come back twice; that is on purpose, just rate what you see each time. Keys <b>1</b> Everywhere, <b>2</b> Mostly,
+<b>3</b> Some, <b>4</b> None, <b>Backspace</b> goes back one. Your progress is kept in this browser if you close the page,
+but download your answers at the end (or any time) to be safe.</p>
+<button class="primary" id="go">Start</button> <span class="muted" id="resume"></span></div>
+<details class="card"><summary>Reminder: examples from the training</summary><div id="ref"></div></details>
+<div class="card hidden" id="rate"><progress id="prog" value="0"></progress><p id="where"></p>
+<img id="pic" alt="picture to rate"><div class="btns" id="btns"></div>
+<div class="btns"><button id="back">Back one</button><button id="dlp">Download answers so far</button></div>
+<p class="muted" id="brk"></p></div>
+<div class="card hidden" id="done"><h2>All done, thank you!</h2>
+<button class="primary" id="dl">Download my answers</button> <span class="muted">(saves <code>sheet_or_swirl_ratings.json</code>
+to your Downloads folder; tell Claude when it is there)</span></div>
+</main>
+<script>
+const D = /*DATA*/null;
+const SCALE=[["Everywhere",3],["Mostly",2],["Some",1],["None",0]];
+const N=D.items.length, KEY="sos_rating_"+D.items.slice(0,3).map(x=>x.id).join("")+N;
+let ans=[]; try{ans=JSON.parse(localStorage.getItem(KEY)||"[]");}catch(e){ans=[];}
+const ref=document.getElementById("ref");
+for(const [g,t,c] of [["clean","Clean sheet (Everywhere)","good"],["swirl","Swirls (None)","bad"]])
+ ref.innerHTML+=`<div class="tag ${c}">${t}</div><div class="row">`+D.ref[g].map(e=>`<div class="ex"><img alt="${g} example" src="${e.src}"></div>`).join("")+`</div>`;
+if(ans.length) document.getElementById("resume").textContent=`(you have ${ans.length} of ${N} done; Start continues where you stopped)`;
+const $=id=>document.getElementById(id), B=$("btns"); let shown=0;
+B.innerHTML=SCALE.map((s,i)=>`<button data-v="${s[1]}">${s[0]}<kbd>${i+1}</kbd></button>`).join("");
+function save(){try{localStorage.setItem(KEY,JSON.stringify(ans));}catch(e){}}
+function show(){const i=ans.length; if(i>=N){$("rate").classList.add("hidden");$("done").classList.remove("hidden");return;}
+ $("prog").max=N;$("prog").value=i;$("where").textContent=`Picture ${i+1} of ${N}`;$("pic").src=D.items[i].src;shown=performance.now();
+ $("brk").textContent=(i>0&&i%60==0)?"Good moment for a short break if you like.":"";}
+function rate(v){const i=ans.length; if(i>=N)return; ans.push({pos:i,id:D.items[i].id,rating:v,ms:Math.round(performance.now()-shown)});save();show();}
+B.querySelectorAll("button").forEach(b=>b.onclick=()=>{b.blur();rate(+b.dataset.v);});
+$("back").onclick=()=>{if(ans.length){ans.pop();save();show();}};
+$("go").onclick=()=>{$("intro").classList.add("hidden");$("rate").classList.remove("hidden");show();};
+document.addEventListener("keydown",e=>{if(e.repeat||$("rate").classList.contains("hidden"))return;
+ if(e.key>="1"&&e.key<="4")rate(SCALE[+e.key-1][1]); else if(e.key=="Backspace"){e.preventDefault();$("back").click();}});
+function dl(){const b=new Blob([JSON.stringify({when:new Date().toISOString(),n_items:N,complete:ans.length==N,answers:ans},null,1)],{type:"application/json"});
+ const a=document.createElement("a");a.href=URL.createObjectURL(b);a.download="sheet_or_swirl_ratings.json";a.click();}
+$("dl").onclick=dl;$("dlp").onclick=dl;
+</script></body></html>

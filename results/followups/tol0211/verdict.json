@@ -1,0 +1,702 @@
+{
+ "prereg": "prereg/2026-10-06_seb_tol0211.md",
+ "verdict": "HOLDS-ONE",
+ "per_direction_state": {
+  "y50": "HOLDS",
+  "x50": "SUGGESTIVE"
+ },
+ "sentence": "PHerc0211 replicates < 0.47 mm in ['y50']; the other direction is ['SUGGESTIVE']",
+ "floor": 0.791,
+ "limit": 1,
+ "bars": {
+  "holds": "cross not tolerated >= 8/9, within not tolerated <= 1/3, median cross < min within",
+  "fails": "cross not tolerated <= 4/9 or median cross >= median within"
+ },
+ "per_shift": {
+  "y50": {
+   "fits": [
+    "y50_s1",
+    "y50_s2",
+    "y50_s3"
+   ],
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "n_cross": 9,
+   "n_within": 3,
+   "cross_not_tolerated": 9,
+   "within_not_tolerated": 0,
+   "median_cross_share": 0.493,
+   "min_within_share": 0.903,
+   "median_within_share": 0.905,
+   "state": "HOLDS",
+   "cross": {
+    "s1|y50_s1": {
+     "share": 0.493,
+     "range": 2,
+     "p2s": 1.79,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s2|y50_s1": {
+     "share": 0.496,
+     "range": 2,
+     "p2s": 1.81,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s3|y50_s1": {
+     "share": 0.518,
+     "range": 2,
+     "p2s": 1.86,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s1|y50_s2": {
+     "share": 0.47,
+     "range": 2,
+     "p2s": 1.82,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s2|y50_s2": {
+     "share": 0.472,
+     "range": 2,
+     "p2s": 1.82,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s3|y50_s2": {
+     "share": 0.494,
+     "range": 2,
+     "p2s": 1.88,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s1|y50_s3": {
+     "share": 0.483,
+     "range": 2,
+     "p2s": 1.8,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s2|y50_s3": {
+     "share": 0.488,
+     "range": 2,
+     "p2s": 1.83,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s3|y50_s3": {
+     "share": 0.515,
+     "range": 2,
+     "p2s": 1.84,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    }
+   },
+   "within": {
+    "y50_s1|y50_s2": {
+     "share": 0.912,
+     "range": 0,
+     "p2s": 0.89,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    },
+    "y50_s1|y50_s3": {
+     "share": 0.903,
+     "range": 0,
+     "p2s": 0.92,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    },
+    "y50_s2|y50_s3": {
+     "share": 0.905,
+     "range": 0,
+     "p2s": 0.94,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    }
+   },
+   "gap_below_min_unshifted": {
+    "s1|y50_s1": 0.398,
+    "s2|y50_s1": 0.395,
+    "s3|y50_s1": 0.373,
+    "s1|y50_s2": 0.421,
+    "s2|y50_s2": 0.419,
+    "s3|y50_s2": 0.397,
+    "s1|y50_s3": 0.408,
+    "s2|y50_s3": 0.403,
+    "s3|y50_s3": 0.376
+   },
+   "cross_range1": 0,
+   "cross_not_tolerated_by_share": 9,
+   "cross_not_tolerated_by_range": 9,
+   "same_seed_cross": {
+    "s1|y50_s1": {
+     "share": 0.493,
+     "range": 2,
+     "p2s": 1.79,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s2|y50_s2": {
+     "share": 0.472,
+     "range": 2,
+     "p2s": 1.82,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    },
+    "s3|y50_s3": {
+     "share": 0.515,
+     "range": 2,
+     "p2s": 1.84,
+     "outer": {
+      "000": 0,
+      "045": 1,
+      "090": 1,
+      "135": 1,
+      "180": -1,
+      "225": -1,
+      "270": -1,
+      "315": -1
+     },
+     "largest_offset_sector": "045",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": true
+    }
+   },
+   "guard": {
+    "shift": "y50",
+    "tag": "seed1r",
+    "windings": {
+     "n": 90,
+     "first": 10,
+     "last": 99,
+     "theta_axis": 1,
+     "ok": true
+    },
+    "share": 0.942,
+    "range": 0,
+    "p2s": 0.65,
+    "identical": false,
+    "pass_": true
+   },
+   "missing_or_unusable": []
+  },
+  "x50": {
+   "fits": [
+    "x50_s1",
+    "x50_s2",
+    "x50_s3"
+   ],
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "n_cross": 9,
+   "n_within": 3,
+   "cross_not_tolerated": 6,
+   "within_not_tolerated": 0,
+   "median_cross_share": 0.723,
+   "min_within_share": 0.802,
+   "median_within_share": 0.859,
+   "state": "SUGGESTIVE",
+   "cross": {
+    "s1|x50_s1": {
+     "share": 0.652,
+     "range": 0,
+     "p2s": 1.67,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s2|x50_s1": {
+     "share": 0.652,
+     "range": 0,
+     "p2s": 1.73,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s3|x50_s1": {
+     "share": 0.659,
+     "range": 1,
+     "p2s": 1.71,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": -1,
+      "135": -1,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "090",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s1|x50_s2": {
+     "share": 0.724,
+     "range": 0,
+     "p2s": 1.64,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s2|x50_s2": {
+     "share": 0.723,
+     "range": 0,
+     "p2s": 1.64,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s3|x50_s2": {
+     "share": 0.719,
+     "range": 0,
+     "p2s": 1.64,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s1|x50_s3": {
+     "share": 0.798,
+     "range": 0,
+     "p2s": 1.52,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    },
+    "s2|x50_s3": {
+     "share": 0.791,
+     "range": 0,
+     "p2s": 1.51,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    },
+    "s3|x50_s3": {
+     "share": 0.793,
+     "range": 1,
+     "p2s": 1.42,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": -1,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "135",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    }
+   },
+   "within": {
+    "x50_s1|x50_s2": {
+     "share": 0.859,
+     "range": 0,
+     "p2s": 1.26,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    },
+    "x50_s1|x50_s3": {
+     "share": 0.802,
+     "range": 0,
+     "p2s": 1.34,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    },
+    "x50_s2|x50_s3": {
+     "share": 0.874,
+     "range": 0,
+     "p2s": 1.08,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    }
+   },
+   "gap_below_min_unshifted": {
+    "s1|x50_s1": 0.239,
+    "s2|x50_s1": 0.239,
+    "s3|x50_s1": 0.232,
+    "s1|x50_s2": 0.167,
+    "s2|x50_s2": 0.168,
+    "s3|x50_s2": 0.172,
+    "s1|x50_s3": 0.093,
+    "s2|x50_s3": 0.1,
+    "s3|x50_s3": 0.098
+   },
+   "cross_range1": 2,
+   "cross_not_tolerated_by_share": 6,
+   "cross_not_tolerated_by_range": 0,
+   "same_seed_cross": {
+    "s1|x50_s1": {
+     "share": 0.652,
+     "range": 0,
+     "p2s": 1.67,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s2|x50_s2": {
+     "share": 0.723,
+     "range": 0,
+     "p2s": 1.64,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": 0,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "000",
+     "tolerated": false,
+     "fails_share": true,
+     "fails_range": false
+    },
+    "s3|x50_s3": {
+     "share": 0.793,
+     "range": 1,
+     "p2s": 1.42,
+     "outer": {
+      "000": 0,
+      "045": 0,
+      "090": 0,
+      "135": -1,
+      "180": 0,
+      "225": 0,
+      "270": 0,
+      "315": 0
+     },
+     "largest_offset_sector": "135",
+     "tolerated": true,
+     "fails_share": false,
+     "fails_range": false
+    }
+   },
+   "guard": {
+    "shift": "x50",
+    "tag": "seed1r_x",
+    "windings": {
+     "n": 90,
+     "first": 10,
+     "last": 99,
+     "theta_axis": 1,
+     "ok": true
+    },
+    "share": 0.934,
+    "range": 0,
+    "p2s": 0.67,
+    "identical": false,
+    "pass_": true
+   },
+   "missing_or_unusable": []
+  }
+ },
+ "note": "9 cross pairs = 3 shifted x 3 unshifted fits (3 same-seed pairs): correlated, not 9 independent tests; 'not tolerated' = by the note's rule, not 'beyond this band's seed spread' (0.891-0.908)"
+}

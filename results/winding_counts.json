@@ -1,0 +1,7 @@
+{
+ "_note": "N = ceil(1.2 x max m7 sheet crossings over 8 radial rays from the published umbilicus at the band's centre slice) (scripts/wind_count.py). Ray crossings for the pilot bands from the band-build output (04_Work_Log.md); N for the full-run bands from the run logs ('PHerc0826 N=110', 'PHerc0211 N=99'). Every fit's log confirms it: 'save_mesh fitted: winding range [10, N)'.",
+ "PHerc0826 [10208, 11208)": {"crossings": [47, 43, 41, 44, 58, 47, 43, 45], "N": 70},
+ "PHerc0211 [10496, 11496)": {"crossings": [68, 83, 64, 81, 68, 66, 64, 81], "N": 100},
+ "PHerc0826 [8136, 9136)": {"N": 110},
+ "PHerc0211 [8328, 9328)": {"N": 99}
+}

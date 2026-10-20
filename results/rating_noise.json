@@ -1,0 +1,92 @@
+{
+ "seed_range_vs_crop_null": {
+  "PHerc0211 A": {
+   "seed_means": [
+    1.06,
+    1.12,
+    1.0
+   ],
+   "range": 0.12,
+   "crop_sd": 0.91,
+   "null_median": 0.5,
+   "null_p95": 1.06,
+   "p": 1.0
+  },
+  "PHerc0211 C": {
+   "seed_means": [
+    1.0,
+    0.88,
+    1.12
+   ],
+   "range": 0.25,
+   "crop_sd": 0.93,
+   "null_median": 0.5,
+   "null_p95": 1.0,
+   "p": 0.965
+  },
+  "PHerc0826 A": {
+   "seed_means": [
+    0.5,
+    0.38,
+    1.12
+   ],
+   "range": 0.75,
+   "crop_sd": 0.76,
+   "null_median": 0.5,
+   "null_p95": 0.88,
+   "p": 0.164
+  },
+  "PHerc0826 C": {
+   "seed_means": [
+    1.0,
+    0.75,
+    0.38
+   ],
+   "range": 0.62,
+   "crop_sd": 0.75,
+   "null_median": 0.38,
+   "null_p95": 0.88,
+   "p": 0.286
+  }
+ },
+ "per_seed_C_minus_A": {
+  "PHerc0211": [
+   -0.06,
+   -0.25,
+   0.12
+  ],
+  "PHerc0826": [
+   0.5,
+   0.38,
+   -0.75
+  ]
+ },
+ "same_fit_rerated": {
+  "PHerc0211 A seed1": {
+   "pilot": 0.42,
+   "replicate": 1.06
+  },
+  "PHerc0211 C seed1": {
+   "pilot": 0.79,
+   "replicate": 1.0
+  },
+  "PHerc0826 A seed1": {
+   "pilot": 0.25,
+   "replicate": 0.5
+  },
+  "PHerc0826 C seed1": {
+   "pilot": 0.92,
+   "replicate": 1.0
+  }
+ },
+ "pilot_C_minus_A": {
+  "PHerc0211": {
+   "effect": 0.37,
+   "p_two_sided": 0.247
+  },
+  "PHerc0826": {
+   "effect": 0.67,
+   "p_two_sided": 0.01
+  }
+ }
+}
